@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Prosto+One&display=swap');
+
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper{
+    text-align: center;
+    padding-inline: 5rem;
+    padding-block: 2rem;
+}
+.numbers-wrapper{
+    margin-block: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.1rem;
+}
+.number{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    height: 6rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+}
+.prime{
+    background-color: #eb695b;
+}
+.even{
+    background-color: #59b777;
+}
+.odd{
+    background-color: #f7dc5c;
+}
+footer{
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0%;
+}
+
+.color{
+    color: white;
+    height: 6rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+}
+
+.colors-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-block: 3rem;
+    justify-content: center;
+    gap: 0.1rem;
 }
